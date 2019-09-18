@@ -1,0 +1,244 @@
+
+/* nosy boy aren't you :^) */
+
+body {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+
+	font-family: Arial, sans-serif;
+	background-color: #E7F4FC;
+}
+
+
+main {
+	padding: 16px;
+	padding-top: 0;
+	padding-bottom: 64px;
+}
+main h1 {
+	font-weight: normal;
+	font-size: 3em;
+}
+main p {
+	font-size: 1.5em;
+}
+
+
+a {
+	color: #005784;
+}
+a:hover {
+	color: #31A2F2;
+}
+
+
+header {
+	background-color: #4C4744;
+	color: #FFF4C4;
+	padding: 1px;
+}
+footer {
+	position: fixed;
+	padding: 8px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+	background-color: #4C4744;
+	color: #FFF4C4;
+}
+footer a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #FFCA8E;
+}
+
+img {
+	border-radius: 6px;
+}
+img:hover {
+	filter: brightness(120%);
+}
+
+
+#home a {
+	text-decoration:none;
+	font-size: 2em;
+	color: #FFECD8;
+}
+#home a:hover {
+	color: #FFCA8E;
+}
+#links img {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+#links a {
+	text-decoration: underline;
+	font-size: 16px;
+	color: #FFCA8E;
+}
+#links a:hover, footer a:hover {
+	color: #FFECD8;
+}
+
+
+#banner-message {
+	margin: 1em 10% 1em 10%;
+	padding: 5px;
+
+	box-shadow: -5px 5px #246482;
+	background-color: #3593BF;
+	border-radius: 3px;
+	font-size: 24px;
+	color: white;
+}
+
+
+.listenbtn {
+	padding: 16px 0 16px 0;
+	display: inline-block;
+	margin-bottom: 16px;
+	white-space: normal;
+	width: 100%;
+
+	background-color: #A50026;
+	box-shadow: 0 10px #6D0019;
+	text-decoration: none;
+	border-radius: 10px;
+	border: none;
+	color: white;
+}
+.listenbtn:hover {
+	background-color: #C4002D;
+	box-shadow: 0 10px #8C0020;
+	color: white;
+}
+.listenbtn:active {
+	box-shadow: 0 7px #8C0020;
+	transform: translatey(3px);
+	color: white;
+}
+
+
+#msgbox {
+	box-shadow: -10px 10px #246482;
+	background-color: #3593BF;
+	border-radius: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
+#msgbox:hover {
+	background-color: #379BC6;
+}
+#msgbox th {
+	padding: 10px 1em 10px 1em;
+}
+#msgbox td {
+	padding-right: 1em;
+}
+#msgbox #name {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	width: 100%;
+	padding: 2px;
+}
+#msgbox textarea {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	height: 150px;
+	width: 100%;
+}
+
+
+#contact {
+	padding-bottom: 1em;
+	display: block;
+	margin: auto;
+}
+#contact table {
+	margin-bottom: 1em;
+	margin: auto;
+	width: 100%;
+}
+#contact tr:first-child th {
+	text-align: center;
+	font-style: italic;
+	
+	background-color: #002133;
+	color: #fff;
+}
+#contact th, #contact td {
+	padding: 1em;
+	width: 50%;
+
+	background-color: #B2DCEF;
+	color: black;
+}
+#contact th {
+	text-align: right;
+}
+#contact td {
+	text-align: left;
+}
+#contact a {
+	text-decoration: none;
+}
+#contact p {
+	font-size: 16px;
+}
+
+
+/* uccflow.net/stats  ;^) */
+.post {
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	border-spacing: 0;
+	font-size: 24px;
+
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+.post thead, .post tbody {
+	background: black;
+	color: white;
+}
+.post tbody {
+	height: 100px;
+}
+.post thead td {
+	padding: 8px;
+}
+.post tbody td {
+	padding: 16px;
+}
+
+
+@media screen and (min-width: 332px)
+{
+	.listenbtn {
+		width: auto;
+		min-width: 300px;
+	}
+}
+@media screen and (min-width: 550px)
+{
+	table {
+		width: auto;
+	}
+	.post {
+		margin-left: 20%;
+		margin-right: 20%;
+		width: auto;
+	}
+	#contact table {
+		display: inline;
+		margin: 1em;
+	}
+	#contact th, #contact td {
+		width: auto;
+	}
+}
